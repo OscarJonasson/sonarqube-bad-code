@@ -12,6 +12,6 @@ Person.prototype = {
 
 };
 
-var p1 = Person("Michiel", "Mulders", "", 23);
+var p1 = Person("Johnny", "James", "", 23);
 
 
