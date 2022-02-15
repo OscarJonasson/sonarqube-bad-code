@@ -6,9 +6,12 @@ pipeline {
   stages {
     stage('Scan') {
       steps {
+        nodejs (nodeJSInstallationName: 'node') {
         withSonarQubeEnv(installationName: 'sonarqube') { 
-           sh "${scannerHome}/bin/sonar-scanner"
+           sh "npm install sonar-scanner"
+           sh "npm run sonar"
         }
+       }
       }
     }
   }
