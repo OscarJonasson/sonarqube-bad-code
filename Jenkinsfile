@@ -8,7 +8,7 @@ pipeline {
       steps {
         withSonarQubeEnv(installationName: 'sonarqube') { 
            sh '''
-                ${scannerHome}/bin/sonar-scanner \
+                ${JENKINS_HOME}/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarQube_Scanner/bin/sonar-scanner \
                 -D sonar.projectKey=javascript_test11 \
                 -D sonar.projectName=javascript_test11 \
                 '''
