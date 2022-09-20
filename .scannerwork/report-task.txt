@@ -1,6 +1,6 @@
-projectKey=javascript_test
-serverUrl=http://localhost:8889
-serverVersion=9.0.1.46107
-dashboardUrl=http://localhost:8889/dashboard?id=javascript_test
-ceTaskId=AXvsjvJxXZ8kl_xWUweM
-ceTaskUrl=http://localhost:8889/api/ce/task?id=AXvsjvJxXZ8kl_xWUweM
+projectKey=my_sonarproject_1
+serverUrl=http://localhost:8084
+serverVersion=8.7.1.42226
+dashboardUrl=http://localhost:8084/dashboard?id=my_sonarproject_1
+ceTaskId=AYNZ6Xs2SNPlwQD9B-f5
+ceTaskUrl=http://localhost:8084/api/ce/task?id=AYNZ6Xs2SNPlwQD9B-f5
